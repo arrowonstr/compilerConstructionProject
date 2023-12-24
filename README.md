@@ -197,4 +197,15 @@ for_y.appen(yy))
 输出为绘制的图
 
 
+## 五、结果展示
+源程序：
+```
+origin is (0, 0);
+scale is (1, 1);
+for t from e to 10 step 0.1 draw(t, ln(t));
+scale is (1, 1);
+for t from 0 to 2 step 0.1 draw(t, t**2);
+```
+结果：
+![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/1703432926195.jpg)
 
