@@ -207,5 +207,6 @@ scale is (1, 1);
 for t from 0 to 2 step 0.1 draw(t, t**2);
 ```
 结果：
+
 ![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/1703432926195.jpg)
 
