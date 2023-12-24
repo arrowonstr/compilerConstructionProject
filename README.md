@@ -1,22 +1,22 @@
 ## 一、项目要求
 为五种语句编写编译器和解释器
 ### 1. 循环绘图语句
-![图片](/imgs/compilerProject/1703406969131.jpg)
+![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/1703406969131.jpg)
 ### 2. 比例设置语句
-![图片](/imgs/compilerProject/1703407011813.jpg)
+![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/1703407011813.jpg)
 ### 3. 坐标平移语句
-![图片](/imgs/compilerProject/1703407079046.jpg)
+![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/1703407079046.jpg)
 ### 4. 角度旋转语句
-![图片](/imgs/compilerProject/1703407127151.jpg)
+![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/1703407127151.jpg)
 ### 5. 注释语句
-![图片](/imgs/compilerProject/1703407220618.jpg)
+![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/1703407220618.jpg)
 ### 6. 程序演示
-![图片](/imgs/compilerProject/1703407388728.jpg)
+![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/1703407388728.jpg)
 
 ## 二、词法分析
 ### 1. DFA
 设计如图：
-![图片](/imgs/123124.png)
+![图片](https://github.com/arrowonstr/compilerConstructionProject/blob/main/imgs/123124.png)
 其中0是初态，其余都是终态
 其中每个状态的含义为：
 ERROR=0  ID=1  CONST_ID=2  
