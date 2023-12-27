@@ -60,19 +60,28 @@ reportError函数
 ## 三、语法分析
 ### 1. 上下文无关法
 Program  →  { Statement SEMICO } 
+
 Statement → ORIGIN OriginStatment 
 | SCALE ScaleStatment
 | ROT RotStatment    
 | FOR ForStatment
+
 OriginStatment →IS 
            L_BRACKET Expression COMMA Expression R_BRACKET
+           
 ScaleStatment  →IS 
            L_BRACKET Expression COMMA Expression R_BRACKET
+           
 RotStatment →IS Expression
+
 Expression 	→ Term   { ( PLUS | MINUS ) Term } 
+
 Term       	→ Factor { ( MUL | DIV ) Factor }
+
 Factor  	→ ( PLUS | MINUS ) Factor | Component
+
 Component 	→ Atom [ POWER Component ]
+
 Atom → 
 (CONST_ID|CONST_FLOAT_ID|T)(PLUS|MINUS |MUL|DIV|POWER) Expression
       | FUNC L_BRACKET Expression R_BRACKET
